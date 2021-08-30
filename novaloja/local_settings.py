@@ -12,7 +12,7 @@ DATABASES = {
         'NAME': 'db_novaloja',
         'USER': 'postgres',
         'PASSWORD': '123',
-        'HOST': 'localhost',
+        'HOST': '127.0.0.1',
         'PORT': '5432',
     }
 }
