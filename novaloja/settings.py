@@ -88,11 +88,11 @@ WSGI_APPLICATION = 'novaloja.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'db_novaloja',
         'USER': 'postgres',
         'PASSWORD': '123',
-        'HOST': '127.0.0.1',
+        'HOST': '187.120.157.103',
         'PORT': '5432',
     }
 }
