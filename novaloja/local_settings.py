@@ -9,10 +9,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd9qsbdsjaghrtd',
-        'USER': 'ewqryngxsqzazf',
-        'PASSWORD': '09bbc7c19fea7db6e197aeb6fde78a29eede870c01595198ba33d373c83361cd',
-        'HOST': 'ec2-35-153-91-18.compute-1.amazonaws.com',
+        'NAME': 'db_novaloja',
+        'USER': 'postgres',
+        'PASSWORD': '123',
+        'HOST': 'localhost',
         'PORT': '5432',
     }
 }
